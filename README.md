@@ -35,8 +35,8 @@ Hello World :globe_showing_europe_africa: :grinning_face:
 ---
 
 ## 🖼 Screenshot
-![Application Screenshot]()
-![Application Screenshot]()
+![Application Screenshot](Emoji-To-Text-Python/screenshot1.png)
+![Application Screenshot](Emoji-To-Text-Python/screenshot2.png)
 
 ---
 

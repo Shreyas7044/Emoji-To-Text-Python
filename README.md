@@ -1,2 +1,45 @@
-# Emoji-To-Text-Python
-A simple Python project that converts emojis into readable text using the demoji library. It demonstrates how to detect, remove, and replace emojis from text strings. Ideal for beginners learning text preprocessing and Unicode emoji handling in Python.
+# Convert Emoji into Text in Python 🐍😀
+
+This project demonstrates how to convert emojis into readable text using Python and the `demoji` module. Emojis are replaced with their textual descriptions, which is useful for text preprocessing, chat analysis, and NLP tasks.
+
+---
+
+## 🔧 Technologies Used
+- Python 3.x
+- demoji library
+
+---
+
+## 📦 About demoji Module
+
+The demoji module is used to detect, remove, and replace emojis in text strings.
+It requires an initial download of emoji data from the Unicode Consortium because emojis are frequently updated.
+
+This is handled automatically in the code using:
+demoji.download_codes()
+
+Example Input:
+Hello World 🌍😀
+
+Example Output:
+Hello World :globe_showing_europe_africa: :grinning_face:
+
+---
+
+## 🧪 Use Cases
+- Text preprocessing for NLP.
+- Chat and social media data analysis.
+- Removing emojis for clean datasets.
+- Converting emojis to readable descriptions.
+
+---
+
+## 🖼 Screenshot
+![Application Screenshot]()
+![Application Screenshot]()
+
+---
+
+## 📌 Notes
+- Run demoji.download_codes() only once if internet access is available.
+- Ensure Python 3.6 or higher is installed.

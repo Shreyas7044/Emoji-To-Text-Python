@@ -18,12 +18,6 @@ It requires an initial download of emoji data from the Unicode Consortium becaus
 This is handled automatically in the code using:
 demoji.download_codes()
 
-Example Input:
-Hello World 🌍😀
-
-Example Output:
-Hello World :globe_showing_europe_africa: :grinning_face:
-
 ---
 
 ## 🧪 Use Cases
